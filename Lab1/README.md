@@ -65,63 +65,63 @@ print('9. Tablica zawierająca losowe liczby z przedziału (1, 25), następnie z
 suma = ran.sum()
 print('-> 9a. Sumę wszystkich liczb w ww. macierzy - \n', suma)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_11.png?raw=true)
 -- oblicz średnią wszystkich liczb w ww. macierzy,
 ```python
 avg = ran.mean()
 print('-> 9b. Średnia wszystkich liczb w ww. macierzy - \n', avg)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_12.png?raw=true)
 -- oblicz standardową dewiację dla liczb w ww. macierzy,
 ```python
 dv = np.std(ran)
 print('-> 9c. Standardową dewiacja dla liczb w ww. macierzy - \n', dv)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_13.png?raw=true)
 -- oblicz sumę każdej kolumny ww. macierzy i zapisz ją do tablicy.
 ```python
 sumsum = np.sum(ran, axis = 0)
 print('-> 9d. Suma każdej kolumny ww. macierzy, zapisana do tablicy - \n', sumsum)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_14.png?raw=true)
 10. Utwórz macierz o wymiarach 5x5 zawierającą losowe liczby z przedziału (0, 100) oraz:
 ```python
 fivemat = np.random.randint(100, size = (5, 5))
 print('10. Macierz o wymiarach 5x5 zawierająca losowe liczby z przedziału (0, 100)  - \n', fivemat)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_15.png?raw=true)
 -- oblicz medianę tych liczb,
 ```python
 med = np.median(fivemat)
 print('-> 10a. Mediana tych liczb - \n', med)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_16.png?raw=true)
 -- znajdź najmniejszą liczbę tej macierzy,
 ```python
 minF = np.min(fivemat)
 print('-> 10b. Najmniejsza liczba tej macierzy - \n', minF)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_17.png?raw=true)
 -- znajdź największą liczbę tej macierzy.
 ```python
 maxF = np.max(fivemat)
 print('-> 10c. Największa liczba tej macierzy - \n', maxF)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_18.png?raw=true)
 11. Utwórz macierz o wymiarach różnych od siebie i większych od 1, zawierającą losowe liczby z przedziału (0, 100) i dokonaj jej transpozycji
 ```python
 rann = np.random.randint(0, 100, size = (3, 5))
 rant = rann.transpose()
 print('11. Macierz o wymiarach różnych od siebie i większych od 1, zawierająca losowe liczby z przedziału (0, 100): \n', rann, '\n\n po transpozycji: \n', rant)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_19.png?raw=true)
 12. Utwórz dwie macierze o odpowiednich wymiarach, większych od 2x2 i dodaj je do siebie
 ```python
 mat1 = np.random.randint(0, 100, size = (4, 6))
 mat2 = np.random.randint(0, 100, size = (4, 6))
 print('12. Dwie macierze o odpowiednich wymiarach, większych od 2x2:\n', mat1, '\n oraz \n', mat2, '\n\n po dodaniu do siebie: \n', mat1 + mat2)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_20.png?raw=true)
 13. Utwórz dwie macierze o odpowiednich wymiarach różnych od siebie i większych od 2, a następnie pomnóż je przez siebie za pomocą dwóch różnych funkcji (np. ‘matmul’ i ‘multiply’, proszę poczytać o różnicach w obliczaniu wyników mnożenia).
 ```python
 mat3 = np.random.randint(0, 100, size = (5, 6))
@@ -134,4 +134,4 @@ print('a) matmul: \n', matmuled)
 print('b) dot: \n', dotted)
 print('c) multiply: \n', multiplied)
 ```
-![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_10.png?raw=true)
+![](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/blob/main/Lab1/screenshots/Screenshot_21.png?raw=true)
