@@ -10,7 +10,7 @@
 ### Lab 2 - [Praca z plikami](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/tree/main/Lab1)  
 
 ---
-### Lab 3 - [tba](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/tree/main/Lab1)  
+### Lab 3 - [Web Scraping i zapis danych do Excela](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/tree/main/Lab1)  
 
 ---
 ### Lab 4 - [tba](https://github.com/jagodalewandowska/wstep-do-ml-lewandowska/tree/main/Lab1)  
